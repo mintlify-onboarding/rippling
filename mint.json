@@ -1,0 +1,116 @@
+{
+    "name": "Rippling",
+    "logo": {
+      "light": "/logo/light.svg",
+      "dark": "/logo/dark.svg"
+    },
+    "favicon": "/favicon.png",
+    "colors": {
+      "primary": "#",
+      "light": "#",
+      "dark": "#"
+    },
+    "topbarCtaButton": {
+      "name": "",
+      "url": ""
+    },
+    "topbarLinks": [
+      {
+        "name": "",
+        "url": ""
+      }
+    ],
+    "anchors": [
+      {
+        "name": "",
+        "icon": "",
+        "url": ""
+      }
+    ],
+    "tabs": [
+        {
+            "name": "API Reference",
+            "url": "api-reference"
+        }
+    ],
+    "navigation": [
+        {
+            "group": "Getting Started",
+            "pages": [
+              "getting-started"
+            ]
+          },
+        {
+            "group": "A. Companies",
+            "pages": [
+              "api-reference/a-companies/get-current-company",
+              "api-reference/a-companies/get-departments",
+              "api-reference/a-companies/get-work-locations",
+              "api-reference/a-companies/get-custom-fields",
+              "api-reference/a-companies/get-teams",
+              "api-reference/a-companies/get-levels",
+              "api-reference/a-companies/get-company-leave-types",
+              "api-reference/a-companies/get-company-activity"
+            ]
+          },
+          {
+            "group": "B. Employees",
+            "pages": [
+              "api-reference/b-employees/get-employees",
+              "api-reference/b-employees/get-employee",
+              "api-reference/b-employees/get-employees-including-terminated"
+            ]
+          },
+          {
+            "group": "E. Current User",
+            "pages": [
+              "api-reference/e-current-user/get-current-user"
+            ]
+          },
+          {
+            "group": "F. Groups",
+            "pages": [
+              "api-reference/f-groups/get-groups",
+              "api-reference/f-groups/post-groups",
+              "api-reference/f-groups/put-group",
+              "api-reference/f-groups/delete-group",
+              "api-reference/f-groups/patch-group"
+            ]
+          },
+          {
+            "group": "J. Leaves",
+            "pages": [
+              "api-reference/j-leaves/get-leave-requests",
+              "api-reference/j-leaves/post-leave-request",
+              "api-reference/j-leaves/get-leave-balances",
+              "api-reference/j-leaves/get-leave-balance",
+              "api-reference/j-leaves/post-process-leave-request",
+              "api-reference/j-leaves/delete-leave-request",
+              "api-reference/j-leaves/patch-leave-request"
+            ]
+          },
+          {
+            "group": "G. SAML",
+            "pages": [
+              "api-reference/g-saml/get-saml-metadata"
+            ]
+          },
+          {
+            "group": "H. ATS",
+            "pages": [
+              "api-reference/h-ats/post-new-candidate"
+            ]
+          },
+          {
+            "group": "I. Application Management",
+            "pages": [
+              "api-reference/i-application-management/mark-app-installed"
+            ]
+          }
+    ],
+    "footerSocials":
+      {
+          "twitter": "",
+          "linkedin": ""
+      }
+  }
